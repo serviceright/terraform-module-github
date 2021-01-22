@@ -12,6 +12,7 @@ variable "branches" {
   description = "List of branches that needs to be created"
   type = list(string)
   default = [
-    "develop"
+    "develop",
+    "production"
   ]
 }
