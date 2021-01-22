@@ -5,6 +5,7 @@ resource "github_repository" "repository" {
   visibility  = "private"
   archive_on_destroy = true
   has_wiki = true
+  has_downloads = false
 }
 
 # creates all the branches we need inside github
